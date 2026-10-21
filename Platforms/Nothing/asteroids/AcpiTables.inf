@@ -1,0 +1,13 @@
+[Defines]
+  INF_VERSION                    = 0x00010005
+  BASE_NAME                      = AcpiTables
+  FILE_GUID                      = 9FD3388E-2945-4017-B8D0-9781BDA5D80B
+  MODULE_TYPE                    = USER_DEFINED
+  VERSION_STRING                 = 1.0
+
+[Binaries]
+  ASL|Common/SSDT.aml
+  ASL|Palawan/APIC.aml
+  ASL|Palawan/DSDT_Minimal.aml
+  ASL|Palawan/FACP.aml
+  ASL|Palawan/GTDT.aml
